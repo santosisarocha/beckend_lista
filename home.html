@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Turmas e Atividades</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+<div class="login-container">
+    <div class="error-message">
+    </div>
+
+    <div class="welcome-message">
+        digite seu id para descobrir suas salas
+    </div>
+    <h2>Suas Turmas e Atividades</h2>
+
+    <form action="/home" method="post">
+        <label for="id_professor"> id professor:</label>
+        <input name="id_professor" id="id_professor" type="text">
+            {professor_id}
+
+        </input>
+
+        <label for="turma"> Turma:</label>
+        <p name="turma" id="turma" type="number">
+            {turma_nome}
+
+        <p>
+
+        <button type="submit">Entrar</button>
+    </form>
+</div>
+</body>
+</html>

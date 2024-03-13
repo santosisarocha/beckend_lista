@@ -1,0 +1,71 @@
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para o contêiner de login */
+.login-container {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+
+/* Estilo para a mensagem de erro */
+.error-message {
+    color: red;
+    margin-bottom: 10px;
+}
+
+/* Estilo para a mensagem de boas-vindas */
+.welcome-message {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Estilo para o título das turmas e atividades */
+h2 {
+    margin-bottom: 20px;
+}
+
+/* Estilo para o rótulo do campo de ID do professor */
+label {
+    font-weight: bold;
+}
+
+/* Estilo para o campo de entrada de ID do professor */
+#id_professor {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Estilo para o botão de entrada */
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Estilo para o botão de entrada ao passar o mouse */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para o campo de turma */
+#turma {
+    font-weight: bold;
+}
